@@ -1,6 +1,6 @@
 # Portfolio Visualizer
 
-A self, local hosted, databaseless, data-driven portfolio visualizer
+A self, local hosted, databaseless, data-driven portfolio visualizer using D3.js 
 
 The main purpose of this project is to facilitate the management of one's
 portfolio by having the user running is own web application locally, safely
