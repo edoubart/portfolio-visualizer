@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "terms": "https:\\/\\/currencylayer.com\\/terms",
+  "privacy": "https:\\/\\/currencylayer.com\\/privacy",
+  "timestamp": 1627905184,
+  "source": "USD",
+  "quotes": {
+    "USDXAU": 0.000553,
+    "USDXAG": 0.039312
+  }
+}

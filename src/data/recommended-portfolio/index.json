@@ -1,0 +1,448 @@
+{
+  "id": "portfolio",
+  "name": "Portfolio",
+  "color": "#d3d3d3",
+  "children": {
+    "metals": {
+      "id": "metals",
+      "name": "Gold/Silver",
+      "color": "#be9e64",
+      "firstChild": true,
+      "children": {
+        "gold": {
+          "id": "gold",
+          "name": "Gold",
+          "symbol": "XAU",
+          "type": "metal",
+          "color": "#fed97a",
+          "quantity": 10
+        },
+        "silver": {
+          "id": "silver",
+          "name": "Silver",
+          "symbol": "XAG",
+          "type": "metal",
+          "color": "#dedede",
+          "quantity": 1000
+        }
+      }
+    },
+    "stocks": {
+      "id": "stocks",
+      "name": "Stocks",
+      "color": "#39057b",
+      "children": {
+        "gold-silver-majors": {
+          "id": "gold-silver-majors",
+          "name": "Gold/Silver Majors",
+          "color": "#6834b0",
+          "firstChild": true,
+          "children": {
+            "agnico-eagle-mines": {
+              "id": "agnico-eagle-mines",
+              "name": "Agnico Eagle Mines Ltd",
+              "symbol": "AEM",
+              "type": "stock",
+              "color": "#f0c20c",
+              "quantity": 13
+            },
+            "iamgold-corp": {
+              "id": "iamgold-corp",
+              "name": "IAMGOLD Corp",
+              "symbol": "IAG",
+              "type": "stock",
+              "color": "#2c4663",
+              "quantity": 116
+            },
+            "yamana-gold": {
+              "id": "yamana-gold",
+              "name": "Yamana Gold Inc",
+              "symbol": "AUY",
+              "type": "stock",
+              "color": "#9f9266",
+              "quantity": 90
+            },
+            "newmont": {
+              "id": "newmont",
+              "name": "Newmont Corporation",
+              "symbol": "NEM",
+              "type": "stock",
+              "color": "#f5ac1e",
+              "quantity": 13
+            },
+            "cameco": {
+              "id": "cameco",
+              "name": "Cameco Corp",
+              "symbol": "CCJ",
+              "type": "stock",
+              "color": "#0d5993",
+              "quantity": 47
+            },
+            "pan-american-silver": {
+              "id": "pan-american-silver",
+              "name": "Pan American Silver Corp",
+              "symbol": "PAAS",
+              "type": "stock",
+              "color": "#046c9c",
+              "quantity": 16
+            },
+            "b2gold": {
+              "id": "b2gold",
+              "name": "B2Gold Corp",
+              "symbol": "BTG",
+              "type": "stock",
+              "color": "#d9ab22",
+              "quantity": 85
+            }
+          }
+        },
+        "junior-producers": {
+          "id": "junior-producers",
+          "name": "Junior Producers",
+          "color": "#7d25f5",
+          "children": {
+            "ssr-mining": {
+              "id": "ssr-mining",
+              "name": "SSR Mining Inc",
+              "symbol": "SSRM",
+              "type": "stock",
+              "color": "#e26829",
+              "quantity": 17
+            },
+            "argonaut-gold": {
+              "id": "argonaut-gold",
+              "name": "Argonaut Gold Inc",
+              "symbol": "ARNGF",
+              "type": "stock",
+              "color": "#ab8c32",
+              "quantity": 128
+            },
+            "endeavour-mining": {
+              "id": "endeavour-mining",
+              "name": "Endeavour Mining PLC",
+              "symbol": "EDVMF",
+              "type": "stock",
+              "color": "#95979a",
+              "quantity": 3
+            },
+            "mceven-mining": {
+              "id": "McEwen Mining",
+              "name": "McEwen Mining",
+              "symbol": "MUX",
+              "type": "stock",
+              "color": "#988344",
+              "quantity": 65
+            },
+            "fortuna-silver": {
+              "id": "fortuna-silver",
+              "name": "Fortuna Silver Mines Inc",
+              "symbol": "FSM",
+              "type": "stock",
+              "color": "#9f9fa3",
+              "quantity": 100
+            },
+            "endeavour-silver": {
+              "id": "endeavour-silver",
+              "name": "Endeavour Silver Corp",
+              "symbol": "EXK",
+              "type": "stock",
+              "color": "#843c4a",
+              "quantity": 196
+            },
+            "equinox-gold": {
+              "id": "equinox-gold",
+              "name": "Equinox Gold Corp",
+              "symbol": "EQX",
+              "type": "stock",
+              "color": "#cf9f43",
+              "quantity": 29
+            }
+          }
+        },
+        "explorers-emerging-producers": {
+          "id": "explorers-emerging-producers",
+          "name": "Explorers / Emerging Producers",
+          "color": "#aa73f2",
+          "children": {
+            "sabina-gold-&-silver": {
+              "id": "sabina-gold-&-silver",
+              "name": "Sabina Gold & Silver Corp",
+              "symbol": "SGSVF",
+              "type": "stock",
+              "color": "#70b0bb",
+              "quantity": 87
+            },
+            "alexco-resource-corp": {
+              "id": "alexco-resource-corp",
+              "name": "Alexco Resource Corp",
+              "symbol": "AXU",
+              "type": "stock",
+              "color": "#b5b5b6",
+              "quantity": 100
+            },
+            "cascadero-copper": {
+              "id": "cascadero-copper",
+              "name": "Cascadero Copper Corp",
+              "symbol": "CCEDF",
+              "type": "stock",
+              "color": "#3c9fe6",
+              "quantity": 2947
+            },
+            "emx-royalty": {
+              "id": "emx-royalty",
+              "name": "EMX Royalty Corp",
+              "symbol": "EMX",
+              "type": "stock",
+              "color": "#bca265",
+              "quantity": 88
+            },
+            "mexican-gold-mining": {
+              "id": "mexican-gold-mining",
+              "name": "Mexican Gold Mining Corp",
+              "symbol": "MEXGF",
+              "type": "stock",
+              "color": "#c57626",
+              "quantity": 1483
+            },
+            "i80-gold": {
+              "id": "i80-gold",
+              "name": "I-80 Gold Corp",
+              "symbol": "IAUCF",
+              "type": "stock",
+              "color": "#e2c982",
+              "quantity": 1483
+            }
+          }
+        }
+      }
+    },
+    "cryptos": {
+      "id": "cryptos",
+      "name": "Cryptos",
+      "color": "#388d2a",
+      "children": {
+        "bitcoin-and-major-forks": {
+          "id": "bitcoin-and-major-forks",
+          "name": "Bitcoin (and major forks)",
+          "color": "#ecb40c",
+          "firstChild": true,
+          "children": {
+            "bitcoin": {
+              "id": "bitcoin",
+              "name": "Bitcoin",
+              "symbol": "BTC",
+              "type": "crypto",
+              "color": "#f7921b",
+              "quantity": 0.01
+            },
+            "bitcoin-cash": {
+              "id": "bitcoin-cash",
+              "name": "Bitcoin Cash",
+              "symbol": "BCH",
+              "type": "crypto",
+              "color": "#0ac18e",
+              "quantity": 0.28
+            },
+            "bitcoin-cash-sv": {
+              "id": "bitcoin-cash-sv",
+              "name": "Bitcoin SV",
+              "symbol": "BSV",
+              "type": "crypto",
+              "color": "#e4b420",
+              "quantity": 3.05
+            }
+          }
+        },
+        "large-mid-cap": {
+          "id": "large-mid-cap",
+          "name": "Large/mid cap",
+          "color": "#8ec243",
+          "children": {
+            "ethereum": {
+              "id": "ethereum",
+              "name": "Ethereum",
+              "symbol": "ETH",
+              "type": "crypto",
+              "color": "#858bae",
+              "quantity": 0.24
+            },
+            "ethereum-classic": {
+              "id": "ethereum-classic",
+              "name": "Ethereum Classic",
+              "symbol": "ETC",
+              "type": "crypto",
+              "color": "#45b841",
+              "quantity": 5.54
+            },
+            "solana": {
+              "id": "solana",
+              "name": "Solana",
+              "symbol": "SOL",
+              "type": "crypto",
+              "color": "#41BBBE",
+              "quantity": 0.79
+            },
+            "chainlink": {
+              "id": "chainlink",
+              "name": "Chainlink",
+              "symbol": "LINK",
+              "type": "crypto",
+              "color": "#2958db",
+              "quantity": 7.28
+            },
+            "litecoin": {
+              "id": "litecoin",
+              "name": "Litecoin",
+              "symbol": "LTC",
+              "type": "crypto",
+              "color": "#bebebe",
+              "quantity": 1.07
+            },
+            "xrp": {
+              "id": "xrp",
+              "name": "Ripple",
+              "symbol": "XRP",
+              "type": "crypto",
+              "color": "#000000",
+              "quantity": 48.15
+            },
+            "dogecoin": {
+              "id": "dogecoin",
+              "name": "Dogecoin",
+              "symbol": "DOGE",
+              "type": "crypto",
+              "color": "#E2C583",
+              "quantity": 607.64
+            },
+            "cardano": {
+              "id": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA",
+              "type": "crypto",
+              "color": "#0F44A4",
+              "quantity": 143.05
+            },
+            "avalanche": {
+              "id": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX",
+              "type": "crypto",
+              "color": "#DA504D",
+              "quantity": 5.84
+            },
+            "uniswap": {
+              "id": "uniswap",
+              "name": "Uniswap",
+              "symbol": "UNI",
+              "type": "crypto",
+              "color": "#DE5589",
+              "quantity": 16.12
+            }
+          }
+        },
+        "small-cap": {
+          "id": "small-cap",
+          "name": "Small cap",
+          "color": "#f4eb89",
+          "children": {
+            "hedera": {
+              "id": "hedera",
+              "name": "Hedera",
+              "symbol": "HBAR",
+              "type": "crypto",
+              "color": "#000000",
+              "quantity": 519.29
+            },
+            "aave": {
+              "id": "aave",
+              "name": "Aave",
+              "symbol": "AAVE",
+              "type": "crypto",
+              "color": "#999AF6",
+              "quantity": 0.57
+            },
+            "aptos": {
+              "id": "aptos",
+              "name": "Aptos",
+              "symbol": "APT",
+              "type": "crypto",
+              "color": "#272727",
+              "quantity": 20.11
+            },
+            "ondo": {
+              "id": "ondo",
+              "name": "Ondo",
+              "symbol": "ONDO",
+              "type": "crypto",
+              "color": "#05060B",
+              "quantity": 129.72
+            },
+            "render": {
+              "id": "render",
+              "name": "Render",
+              "symbol": "RENDER",
+              "type": "crypto",
+              "color": "#EC0005",
+              "quantity": 36.33
+            },
+            "filecoin": {
+              "id": "filecoin",
+              "name": "Filecoin",
+              "symbol": "FIL",
+              "type": "crypto",
+              "color": "#0498F8",
+              "quantity": 39.58
+            },
+            "near": {
+              "id": "near",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR",
+              "type": "crypto",
+              "color": "#01F293",
+              "quantity": 44.75
+            },
+            "algorand": {
+              "id": "algorand",
+              "name": "Algorand",
+              "symbol": "ALGO",
+              "type": "crypto",
+              "color": "#FEFEFE",
+              "quantity": 564.48
+            },
+            "sui": {
+              "id": "sui",
+              "name": "Sui",
+              "symbol": "SUI",
+              "type": "crypto",
+              "color": "#29A7FE",
+              "quantity": 49.58
+            },
+            "stellar": {
+              "id": "stellar",
+              "name": "Stellar",
+              "symbol": "XLM",
+              "type": "crypto",
+              "color": "#000000",
+              "quantity": 446.29
+            }
+          }
+        }
+      }
+    },
+    "cash": {
+      "id": "cash",
+      "name": "Cash",
+      "color": "#edefe8",
+      "children": {
+        "cash": {
+          "id": "cash",
+          "name": "Cash",
+          "symbol": "USD",
+          "type": "cash",
+          "color": "#edefe8",
+          "quantity": 999.99
+        }
+      }
+    }
+  }
+}

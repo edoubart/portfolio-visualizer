@@ -1,0 +1,68 @@
+{
+  "bitcoin": {
+    "usd": 82155.18
+  },
+  "bitcoin-cash": {
+    "usd": 356.87
+  },
+  "bitcoin-cash-sv": {
+    "usd": 32.73
+  },
+  "ethereum": {
+    "usd": 2065.67
+  },
+  "ethereum-classic": {
+    "usd": 18.04
+  },
+  "solana": {
+    "usd": 127.39
+  },
+  "chainlink": {
+    "usd": 14.02
+  },
+  "litecoin": {
+    "usd": 96.12
+  },
+  "xrp": {
+    "usd": 2.16
+  },
+  "dogecoin": {
+    "usd": 0.17
+  },
+  "cardano": {
+    "usd": 0.74
+  },
+  "avalanche": {
+    "usd": 18.32
+  },
+  "uniswap": {
+    "usd": 6.70
+  },
+  "hedera": {
+    "usd": 0.21
+  },
+  "aave": {
+    "usd": 192.96
+  },
+  "aptos": {
+    "usd": 5.52
+  },
+  "ondo": {
+    "usd": 0.86
+  },
+  "render": {
+    "usd": 3.11
+  },
+  "filecoin": {
+    "usd": 2.88
+  },
+  "near": {
+    "usd": 2.57
+  },
+  "sui": {
+    "usd": 2.36
+  },
+  "stellar": {
+    "usd": 0.26
+  }
+}

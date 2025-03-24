@@ -1,0 +1,200 @@
+{
+  "id": "portfolio",
+  "name": "Portfolio",
+  "color": "#d3d3d3",
+  "children": {
+    "cash": {
+      "id": "cash",
+      "name": "Cash",
+      "color": "#edefe8",
+      "firstChild": true,
+      "children": {
+        "cash": {
+          "id": "cash",
+          "name": "Cash",
+          "symbol": "USD",
+          "type": "cash",
+          "color": "#edefe8",
+          "quantity": 10000
+        }
+      }
+    },
+    "cryptos": {
+      "id": "cryptos",
+      "name": "Cryptos",
+      "color": "#388d2a",
+      "children": {
+        "bitcoin": {
+          "id": "bitcoin",
+          "name": "Bitcoin",
+          "symbol": "BTC",
+          "type": "crypto",
+          "color": "#f7921b",
+          "quantity": 1
+        },
+        "ethereum": {
+          "id": "ethereum",
+          "name": "Ethereum",
+          "symbol": "ETH",
+          "type": "crypto",
+          "color": "#858bae",
+          "quantity": 5
+        },
+        "binancecoin": {
+          "id": "binancecoin",
+          "name": "Binance Coin",
+          "symbol": "BNB",
+          "type": "crypto",
+          "color": "#f1be31",
+          "quantity": 10
+        }
+      }
+    },
+    "metals": {
+      "id": "metals",
+      "name": "Gold/Silver",
+      "color": "#be9e64",
+      "children": {
+        "gold": {
+          "id": "gold",
+          "name": "Gold",
+          "symbol": "XAU",
+          "type": "metal",
+          "color": "#fed97a",
+          "quantity": 10
+        },
+        "silver": {
+          "id": "silver",
+          "name": "Silver",
+          "symbol": "XAG",
+          "type": "metal",
+          "color": "#dedede",
+          "quantity": 1000
+        }
+      }
+    },
+    "stocks": {
+      "id": "stocks",
+      "name": "Stocks",
+      "color": "#39057b",
+      "children": {
+        "finance": {
+          "id": "finance",
+          "name": "Finance",
+          "color": "#6834b0",
+          "children": {
+            "goldman-sachs": {
+              "id": "goldman-sachs",
+              "name": "Goldman Sachs",
+              "symbol": "GS",
+              "type": "stock",
+              "color": "#7399c6",
+              "quantity": 10
+            },
+            "jp-morgan": {
+              "id": "jp-morgan",
+              "name": "JP Morgan",
+              "symbol": "JPM",
+              "type": "stock",
+              "color": "#54352c",
+              "quantity": 20
+            },
+            "visa": {
+              "id": "visa",
+              "name": "Visa Inc.",
+              "symbol": "V",
+              "type": "stock",
+              "color": "#1634c8",
+              "quantity": 30
+            }
+          },
+          "firstChild": true
+        },
+        "technology": {
+          "id": "technology",
+          "name": "Technology",
+          "color": "#7d25f5",
+          "children": {
+            "apple": {
+              "id": "apple",
+              "name": "Apple Inc.",
+              "symbol": "AAPL",
+              "type": "stock",
+              "color": "#040404",
+              "quantity": 10
+            },
+            "microsoft": {
+              "id": "microsoft",
+              "name": "Microsoft",
+              "symbol": "MSFT",
+              "type": "stock",
+              "color": "#6d6c6d",
+              "quantity": 20
+            },
+            "verizon": {
+              "id": "verizon",
+              "name": "Verizon",
+              "symbol": "VZ",
+              "type": "stock",
+              "color": "#ca060e",
+              "quantity": 30
+            }
+          }
+        },
+        "energy": {
+          "id": "energy",
+          "name": "Energy",
+          "color": "#aa73f2",
+          "children": {
+            "chevron-corporation": {
+              "id": "chevron-corporation",
+              "name": "Chevron Corporation",
+              "symbol": "CVX",
+              "type": "stock",
+              "color": "#0370b5",
+              "quantity": 10
+            }
+          }
+        },
+        "food-and-drink": {
+          "id": "food-and-drink",
+          "name": "Food & Drink",
+          "color": "#aa73f2",
+          "children": {
+            "mcdonalds": {
+              "id": "mcdonalds",
+              "name": "McDonald's",
+              "symbol": "MCD",
+              "type": "stock",
+              "color": "#ffcc00",
+              "quantity": 10
+            },
+            "coca-cola": {
+              "id": "coca-cola",
+              "name": "The Coca-Cola Company",
+              "symbol": "KO",
+              "type": "stock",
+              "color": "#e31c27",
+              "quantity": 20
+            }
+          }
+        },
+        "shop": {
+          "id": "shop",
+          "name": "Shop",
+          "color": "#aa73f2",
+          "children": {
+            "walmart": {
+              "id": "walmart",
+              "name": "Walmart",
+              "symbol": "WMT",
+              "type": "stock",
+              "color": "#fac326",
+              "quantity": 10
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$id": "portfolio",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "symbol": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "cash",
+        "crypto",
+        "metal",
+        "stock"
+      ]
+    },
+    "color": {
+      "type": "string",
+      "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "firstChild": {
+      "type": "boolean"
+    },
+    "children": {
+      "type": "object",
+      "items": {
+        "$ref": "#"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name"
+  ]
+}
